@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1712607587
+bullet.gd::GDScript::-1::1712589071::0::1::::<>CharacterBody2D<>::
+bullet.tscn::PackedScene::1324733987371432123::1712593961::0::1::::<><>::res://bullet.gd<>uid://cpupuc5vxidmt::::res://icon.svg
+Famas.png::CompressedTexture2D::4117536265283792240::1712586235::1712586236::1::::<><>::
+game_manager.gd::GDScript::-1::1712591102::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::5867908200183508999::1712586221::1712586227::1::::<><>::
+Main Character - Male - Full spritesheet.png::CompressedTexture2D::1188296073600288048::1712586263::1712586263::1::::<><>::
+main_tileset.png::CompressedTexture2D::2646303853608348635::1712586278::1712586279::1::::<><>::
+multiplayer_controller.gd::GDScript::-1::1712591384::0::1::::<>Control<>::
+multiplayer_scene.tscn::PackedScene::5936851485046110324::1712593961::0::1::::<><>::res://multiplayer_controller.gd
+player.gd::GDScript::-1::1712593841::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::4968035282252702097::1712593961::0::1::::<><>::uid://q6vcere7k8a3::::res://Main Character - Male - Full spritesheet.png<>res://player.gd<>uid://bywthre1inh2w::::res://Famas.png<>uid://s4yf7tc0k5r8::::res://bullet.tscn
+scene_manager.gd::GDScript::-1::1712592714::0::1::::<>Node2D<>::
+test_scene.tscn::PackedScene::2896495341717690799::1712593961::0::1::::<><>::res://scene_manager.gd<>uid://cpupuc5vxidmt::::res://icon.svg<>uid://cc1s2yo73qgm8::::res://player.tscn

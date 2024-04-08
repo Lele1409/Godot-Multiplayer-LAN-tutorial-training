@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://bhjc4cqv86pnr"]
+
+[ext_resource type="Script" path="res://scene_manager.gd" id="1_5bnq1"]
+[ext_resource type="Texture2D" uid="uid://cpupuc5vxidmt" path="res://icon.svg" id="1_a6uyx"]
+[ext_resource type="PackedScene" uid="uid://cc1s2yo73qgm8" path="res://player.tscn" id="2_t1upa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lu6tg"]
+size = Vector2(128, 128)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_5bnq1")
+player_scene = ExtResource("2_t1upa")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(552, 552)
+scale = Vector2(5.125, 0.078125)
+shape = SubResource("RectangleShape2D_lu6tg")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(552, 552)
+scale = Vector2(5.125, 0.078125)
+texture = ExtResource("1_a6uyx")
+
+[node name="Spawnlocations" type="Node" parent="."]
+
+[node name="0" type="Node2D" parent="Spawnlocations" groups=["spawnpoints_player"]]
+position = Vector2(326, 454)
+
+[node name="1" type="Node2D" parent="Spawnlocations" groups=["spawnpoints_player"]]
+position = Vector2(479, 462)
+
+[node name="2" type="Node2D" parent="Spawnlocations" groups=["spawnpoints_player"]]
+position = Vector2(599, 460)
+
+[node name="3" type="Node2D" parent="Spawnlocations" groups=["spawnpoints_player"]]
+position = Vector2(737, 468)

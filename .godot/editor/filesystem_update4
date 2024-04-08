@@ -1,0 +1,7 @@
+res://player.tscn
+res://player.gd
+res://test_scene.tscn
+res://bullet.tscn
+res://multiplayer_scene.tscn
+res://multiplayer_controller.gd
+res://game_manager.gd

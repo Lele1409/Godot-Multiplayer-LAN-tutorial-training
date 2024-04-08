@@ -1,0 +1,11 @@
+MultiplayerSynchronizer
+Node
+Node2D
+Label
+LineEdit
+Button
+CharacterBody2D
+CollisionShape2D
+Sprite2D
+StaticBody2D
+AnimatedSprite2D
